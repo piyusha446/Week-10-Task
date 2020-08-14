@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Working with CSS </title>
+<style>
+	#border{
+			width: 539px;
+			height: 270px;
+			border: 1px solid black;
+			background-color: #FFFFCC;
+		}
+	div.blue1{
+		width: 175px;
+		height: 214px;
+		border: 1px solid black;
+		background-color: #add8e6;
+		position: relative;
+		left: 2px;
+		top: 2px;
+	}
+	div.yellow1{
+		width: 175px;
+		height: 50px;
+		border: 1px solid black;
+		background-color: yellow;
+		position: relative;
+		left: 181px;
+		top: -214px;
+	}
+	div.red1{
+		width: 175px;
+		height: 50px;
+		border: 1px solid black;
+		background-color: red;
+		position: relative;
+		left: 360px;
+		top: -266px;
+	}
+	div.green1{
+		width: 354px;
+		height: 160px;
+		border: 1px solid black;
+		background-color: green;
+		position: relative;
+		left: 181px;
+		top: -264px;
+	}
+	ul.column{
+		margin: 2px;
+		list-style: none;
+		padding: 0;
+		background-color: white;
+	}
+	ul.column li{
+		display: inline-block;
+		padding: 12px 55px;
+		border:1px solid black;
+	}
+</style>
+</head>
+<body>
+	<div id="border">
+		<ul class="column">
+			<li> Column 1 </li> 
+			<li> Column 2 </li>
+			<li> Column 3 </li>
+		</ul>
+	<div class="blue1">
+		<p > &nbsp; &nbsp; A numbered list: </p>
+		<ol>
+			<li> Able </li> <br>
+			<li> Baker </li> <br>
+			<li> Charlie </li> <br>
+			<li> Delta </li> <br>
+			<li> Echo </li> <br>
+		</ol>
+	</div>
+	<div class="yellow1">
+		<p align="center"> <font size="4px"> B </font> </p>
+	</div>
+	<div class="red1">
+		<p align="center"> <font size="4px"> C </font> </p>
+	</div>
+	<div class="green1">
+		<p > &nbsp; &nbsp; &nbsp;An unnumbered list: </p>
+		<ul>
+			<li> Pounds</li>
+			<li> Dollars</li>
+			<li> Euro</li>
+			<li> Yen</li>
+			<li> Roubles</li>
+		</ul>
+	</div>
+</div>
+</body>
+</html>
